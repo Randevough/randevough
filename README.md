@@ -137,27 +137,33 @@ Git · GitHub · VS Code
 
 ---
 
-## 05 / GITHUB ACTIVITY
+## 05 / CURRENTLY BUILDING
+
+I'm currently building full-stack applications, digital products, and small experiments—usually starting with a messy idea and ending somewhere between *“it works”* and *“we should probably refactor that.”*
+
+Right now, I'm focused on making products more reliable, interfaces more thoughtful, and shipping more often.
+
+---
+
+## 06 / GITHUB ACTIVITY
 
 ### A YEAR OF BUILDING THINGS
 
 My GitHub activity, visualized in a slightly more interesting way than a collection of green squares.
 
 <div align="center">
-  <img src="./assets/space-shooter.svg" width="100%" alt="A space shooter visualization of Randevough's GitHub contributions" />
+  <img src="./assets/contribution-shooter.gif" width="100%" alt="An animated spaceship moving, firing, and clearing Randevough's GitHub contribution blocks" />
 </div>
 
 ---
 
-## 06 / BEYOND THE CODE
+## 07 / BEYOND THE CODE
 
-I've also spent time working with **UKM Coding**, organizations, communities, and teams.
+As President of **UKM Coding**, I lead the community, work with the team, and help turn half-formed ideas into things we can actually build.
 
-Because building software is only half the job.
+Because software is rarely just about the code. It's also about communicating clearly, working through uncertainty, and keeping everyone moving in the same direction.
 
-The other half is figuring out what we're actually building, getting everyone on the same page, and somehow meeting the deadline.
-
-Still working on that last part.
+Still figuring out the deadline part.
 
 ---
 

@@ -1,4 +1,4 @@
-name: Update contribution space shooter
+name: Update contribution shooter
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "scripts/generate-space-shooter.mjs"
+      - "scripts/generate_contribution_shooter.py"
       - ".github/workflows/update-contribution-art.yml"
 
 permissions:
@@ -20,21 +20,24 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: 20
+          python-version: "3.12"
 
-      - name: Generate contribution artwork
+      - name: Install renderer
+        run: python -m pip install --disable-pip-version-check Pillow==10.4.0
+
+      - name: Generate animated contribution shooter
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: Randevough
-        run: node scripts/generate-space-shooter.mjs
+        run: python scripts/generate_contribution_shooter.py
 
-      - name: Commit updated artwork
+      - name: Commit updated animation
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/space-shooter.svg
-          git diff --cached --quiet || git commit -m "chore: update contribution artwork"
+          git add assets/contribution-shooter.gif
+          git diff --cached --quiet || git commit -m "chore: update contribution shooter"
           git push
