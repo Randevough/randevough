@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">RANDEVOUGH</title>
+  <desc id="desc">I build things people actually use. Full-stack developer, UI/UX enthusiast, and team player.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/><stop offset="0.55" stop-color="#07152d"/><stop offset="1" stop-color="#06111f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="77%" cy="20%" r="65%">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity=".22"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <style>
+      .sans{font-family:Arial,Helvetica,sans-serif}.mono{font-family:Consolas,Menlo,monospace}
+      .star{fill:#c7f4ff}.line{stroke:#22d3ee;stroke-opacity:.28}.accent{fill:#67e8f9}
+      @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}.pulse{animation:pulse 3s ease-in-out infinite}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="24" fill="url(#glow)"/>
+  <g opacity=".5">
+    <circle class="star" cx="83" cy="72" r="1.6"/><circle class="star" cx="185" cy="335" r="1"/><circle class="star" cx="319" cy="51" r="1.2"/><circle class="star" cx="440" cy="360" r="1.4"/><circle class="star" cx="658" cy="83" r="1"/><circle class="star" cx="774" cy="315" r="1.4"/><circle class="star" cx="965" cy="62" r="1.6"/><circle class="star" cx="1110" cy="270" r="1.1"/>
+  </g>
+  <g transform="translate(62 54)">
+    <path d="M0 20V0h20M1056 0h20v20M0 292v20h20M1056 312h20v-20" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".55"/>
+    <text class="mono accent" x="0" y="58" font-size="14" letter-spacing="3">HELLO, I'M</text>
+    <text class="sans" x="0" y="145" font-size="78" font-weight="800" letter-spacing="5" fill="#f8fafc">RANDEVOUGH</text>
+    <text class="sans" x="2" y="198" font-size="26" font-weight="700" fill="#c7f4ff">I build things people actually use.</text>
+    <text class="sans" x="2" y="240" font-size="18" fill="#94a3b8">Full-stack developer  ·  UI/UX enthusiast  ·  Team player</text>
+    <g transform="translate(2 278)">
+      <circle class="pulse" cx="6" cy="-5" r="5" fill="#22d3ee"/>
+      <text class="mono" x="22" y="0" font-size="13" fill="#64748b">made with questionable amounts of caffeine.</text>
+    </g>
+    <g transform="translate(875 65)" fill="none" stroke="#22d3ee">
+      <circle cx="88" cy="88" r="83" opacity=".13"/><circle cx="88" cy="88" r="56" opacity=".18"/><circle cx="88" cy="88" r="28" opacity=".24"/>
+      <path d="M0 88h176M88 0v176" opacity=".12"/>
+      <path d="M35 115L78 96l18-47 14 44 34 13-35 11-16 35-13-34z" fill="#07152d" stroke-width="2"/>
+      <path d="M78 96l31 21M96 49l0 54" opacity=".6"/>
+      <circle cx="142" cy="55" r="3" fill="#67e8f9" class="pulse"/>
+    </g>
+  </g>
+</svg>
