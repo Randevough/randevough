@@ -1,56 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-<title id="title">RANDEVOUGH</title>
-<desc id="desc">I build things people actually use. Full-stack developer, UI/UX enthusiast, and team player.</desc>
+<title id="title">RANDEVOUGH</title><desc id="desc">I build things people actually use. Full-stack developer, UI/UX enthusiast, and team player.</desc>
 <defs>
-  <filter id="paper" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".56" numOctaves="4" seed="23" stitchTiles="stitch"/><feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .13 0"/></filter>
-  <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".025" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2"/></filter>
-  <style>
-    .sans{font-family:Arial,Helvetica,sans-serif}.mono{font-family:Consolas,Menlo,monospace}
-    .blob-a{animation:driftA 8s ease-in-out infinite}.blob-b{animation:driftB 10s ease-in-out infinite}.scribble{stroke-dasharray:900;animation:draw 5s ease-in-out infinite}
-    @keyframes driftA{0%,100%{transform:translate(0,0) rotate(0deg)}50%{transform:translate(8px,-5px) rotate(2deg)}}
-    @keyframes driftB{0%,100%{transform:translate(0,0) rotate(0deg)}50%{transform:translate(-7px,6px) rotate(-2deg)}}
-    @keyframes draw{0%,12%{stroke-dashoffset:900}48%,100%{stroke-dashoffset:0}}
-    @media(prefers-reduced-motion:reduce){*{animation:none!important}.scribble{stroke-dashoffset:0}}
-  </style>
+  <filter id="paper" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" seed="31" stitchTiles="stitch"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .085 0"/></filter>
+  <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="2" seed="11" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="1.4"/></filter>
+  <style>.sans{font-family:Arial,Helvetica,sans-serif}.mono{font-family:Consolas,Menlo,monospace}</style>
 </defs>
-<rect width="1200" height="520" rx="24" fill="#f4ecdd"/>
-<rect width="1200" height="520" rx="24" filter="url(#paper)" opacity=".7"/>
+<rect width="1200" height="520" rx="22" fill="#f3ebdd"/>
+<rect width="1200" height="520" rx="22" filter="url(#paper)"/>
 
-<!-- torn-paper shadows and organic collage shapes -->
-<path class="blob-a" d="M-40 310C75 230 174 274 245 356c67 78 166 111 272 57 75-38 140-30 203 7v140H-40Z" fill="#f26430" opacity=".96"/>
-<path class="blob-b" d="M788-40c69 44 82 114 45 171-41 63-21 121 52 151 95 38 174 21 355-40V-40Z" fill="#8fcf75"/>
-<path d="M760 381c87-59 189-55 292-8 58 26 112 30 188-9v156H744c-31-50-26-101 16-139Z" fill="#ffd34f"/>
-<path d="M73 68c108-40 199-27 278 28" fill="none" stroke="#132daa" stroke-width="5" stroke-linecap="round" filter="url(#rough)"/>
+<!-- editorial paper pieces: all intentionally contained inside the canvas -->
+<path d="M38 38H192L181 482H38Z" fill="#1736b6"/>
+<path d="M992 36H1162V155L978 166Z" fill="#f06432"/>
+<path d="M918 420L1162 390V482H893Z" fill="#ffd253"/>
+<path d="M222 68L492 48L502 98L230 112Z" fill="#ffd253" opacity=".9"/>
 
-<!-- small handmade marks -->
-<g fill="none" stroke="#171717" stroke-width="3" stroke-linecap="round" opacity=".75">
-  <path d="M1020 84l14-18m4 25 21-8m-38 25 20 13"/>
-  <path d="M100 414c26-15 54-14 82 3m-68 14c24-10 46-8 68 4"/>
+<text class="mono" x="76" y="78" font-size="12" fill="#f3ebdd" letter-spacing="2" transform="rotate(-90 76 78)">01 / DEVELOPER PROFILE</text>
+<text class="mono" x="226" y="86" font-size="13" fill="#171717" letter-spacing="2">HELLO, I'M</text>
+
+<!-- magazine headline -->
+<g class="sans" font-weight="900" fill="#1736b6" letter-spacing="-8">
+  <text x="218" y="225" font-size="112" transform="rotate(-.7 218 225)">RANDE</text>
+  <text x="500" y="319" font-size="112" transform="rotate(.5 500 319)">VOUGH</text>
 </g>
-<text class="mono" x="74" y="72" font-size="13" fill="#132daa" letter-spacing="2">HELLO, I'M</text>
+<path d="M225 328C389 340 508 323 664 335C786 344 870 346 974 332" fill="none" stroke="#171717" stroke-width="5" stroke-linecap="round" filter="url(#rough)"/>
+<path d="M965 323l21 9-18 14" fill="none" stroke="#171717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 
-<!-- fluid typography: intentionally staggered baselines -->
-<g class="sans" font-weight="900" fill="#132daa" letter-spacing="-8">
-  <text x="66" y="225" font-size="112" transform="rotate(-1 66 225)">RANDE</text>
-  <text x="445" y="241" font-size="112" transform="rotate(1.2 445 241)">VOUGH</text>
-</g>
-<path class="scribble" d="M71 255c135 21 244-10 359 2 136 15 225 47 373 18 82-16 159-14 270 7" fill="none" stroke="#132daa" stroke-width="5" stroke-linecap="round" filter="url(#rough)"/>
-
-<!-- layered cutout copy -->
-<g transform="translate(408 311) rotate(-1)">
-  <rect x="12" y="12" width="626" height="112" rx="5" fill="#132daa" opacity=".2"/>
-  <path d="M0 4 620 0l8 104-617 7Z" fill="#fffaf0" stroke="#171717" stroke-width="2"/>
-  <text class="sans" x="28" y="48" font-size="25" font-weight="800" fill="#171717">I build things people actually use.</text>
-  <text class="sans" x="28" y="82" font-size="16" fill="#3d3a35">Full-stack developer · UI/UX enthusiast · Team player</text>
+<!-- attached note with offset print shadow -->
+<g transform="translate(226 348) rotate(-.7)">
+  <path d="M12 12H720L708 112H0Z" fill="#1736b6" opacity=".22"/>
+  <path d="M0 0H714L706 102H8Z" fill="#fffaf0" stroke="#171717" stroke-width="2"/>
+  <text class="sans" x="30" y="43" font-size="26" font-weight="800" fill="#171717">I build things people actually use.</text>
+  <text class="sans" x="30" y="76" font-size="16" fill="#41403c">Full-stack developer · UI/UX enthusiast · Team player</text>
 </g>
 
-<!-- tape/status layer -->
-<g transform="translate(78 321) rotate(1.5)">
-  <path d="M0 0h284l-8 80H8Z" fill="#132daa"/>
-  <text class="mono" x="22" y="27" font-size="11" fill="#f4ecdd" letter-spacing="1.5">CURRENTLY</text>
-  <text class="sans" x="22" y="56" font-size="15" font-weight="700" fill="#fffaf0">open to work · collaboration · freelance</text>
+<!-- small, static human marks -->
+<g fill="none" stroke="#171717" stroke-width="3" stroke-linecap="round">
+  <path d="M1040 221l20-19m0 34 29-7m-40 28 25 17"/>
+  <path d="M1016 343c31-13 58-11 85 6m-75 9c23-7 45-4 65 7"/>
 </g>
-
-<text class="mono" x="75" y="477" font-size="12" fill="#171717">made with questionable amounts of caffeine.</text>
-<text class="mono" x="1122" y="477" text-anchor="end" font-size="11" fill="#171717">JAKARTA, ID ↗</text>
+<g transform="translate(976 91) rotate(2)">
+  <rect width="147" height="42" fill="#fffaf0" stroke="#171717" stroke-width="2"/>
+  <text class="mono" x="74" y="26" text-anchor="middle" font-size="11" fill="#171717">JAKARTA, ID ↗</text>
+</g>
+<text class="mono" x="222" y="489" font-size="11" fill="#171717">OPEN TO WORK · COLLABORATION · FREELANCE</text>
+<text class="mono" x="1120" y="489" text-anchor="end" font-size="11" fill="#171717">powered by questionable amounts of caffeine.</text>
 </svg>
