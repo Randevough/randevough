@@ -28,7 +28,7 @@ jobs:
       - name: Generate contribution artwork
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: RandDevs
+          GITHUB_USERNAME: Randevough
         run: node scripts/generate-space-shooter.mjs
 
       - name: Commit updated artwork

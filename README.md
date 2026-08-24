@@ -144,7 +144,7 @@ Git · GitHub · VS Code
 My GitHub activity, visualized in a slightly more interesting way than a collection of green squares.
 
 <div align="center">
-  <img src="./assets/space-shooter.svg" width="100%" alt="A space shooter visualization of RandDevs' GitHub contributions" />
+  <img src="./assets/space-shooter.svg" width="100%" alt="A space shooter visualization of Randevough's GitHub contributions" />
 </div>
 
 ---
@@ -171,7 +171,7 @@ I'm always interested in building interesting things.
 
 **Open to work · collaboration · freelance**
 
-[Portfolio](#) · [LinkedIn](#) · [Email](mailto:your@email.com) · [GitHub](https://github.com/RandDevs)
+[Portfolio](#) · [LinkedIn](#) · [Email](mailto:your@email.com) · [GitHub](https://github.com/Randevough)
 
 <br />
 
