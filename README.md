@@ -17,11 +17,11 @@
 </p>
 
 <p align="center">
-  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Portfolio-181818?style=flat&logo=safari&logoColor=1736b6" alt="Portfolio" /></a>
+  <a href="https://randevough.github.io/Portofolio/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-181818?style=flat&logo=safari&logoColor=1736b6" alt="Portfolio" /></a>
   &nbsp;
-  <a href="#" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-181818?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzBBNjZDMiI%2BPHBhdGggZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjJWMTAuOUg2LjQ2TTcuODMgNi40NWExLjYgMS42IDAgMCAwLTEuNiAxLjYgMS42IDEuNiAwIDAgMCAxLjYgMS42IDEuNiAxLjYgMCAwIDAgMS42LTEuNiAxLjYgMS42IDAgMCAwLTEuNi0xLjZaIi8%2BPC9zdmc%2B" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/muhamad-rafi-fernanda-5248a0301/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-181818?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzBBNjZDMiI%2BPHBhdGggZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjJWMTAuOUg2LjQ2TTcuODMgNi40NWExLjYgMS42IDAgMCAwLTEuNiAxLjYgMS42IDEuNiAwIDAgMCAxLjYgMS42IDEuNiAxLjYgMCAwIDAgMS42LTEuNiAxLjYgMS42IDAgMCAwLTEuNi0xLjZaIi8%2BPC9zdmc%2B" alt="LinkedIn" /></a>
   &nbsp;
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-181818?style=flat&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+  <a href="mailto:muhamadrafifernanda@gmail.com"><img src="https://img.shields.io/badge/Email-181818?style=flat&logo=gmail&logoColor=EA4335" alt="Email" /></a>
 </p>
 
 <picture>
@@ -93,74 +93,90 @@ A few things I've built, broken, rebuilt, and eventually shipped.
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" align="center">
+  <a href="https://github.com/Randevough/CodeQuest">
+    <img src="./assets/preview/code-quest-preview.png" width="100%" alt="CodeQuest Preview" />
+  </a>
+</td>
+<td width="50%" align="center">
+  <a href="https://aksaranetra.vercel.app/">
+    <img src="./assets/preview/aksara-netra-preview.png" width="100%" alt="AksaraNetra Preview" />
+  </a>
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-<a href="https://github.com/Randevough/CodeQuest">
-  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="CodeQuest Preview" />
-</a>
-
-### 01 — CODEQUEST `[ACTIVE]`
+### 01 / CODEQUEST `[ON PROGRESS]`
 
 A gamified collaboration platform turning standard development issues into engaging team quests for student clubs and developer communities.
 
 `Next.js` `React` `TypeScript` `Tailwind CSS` `Prisma` `Redis`
 
-<br />
-
-**[Source Code ↗](https://github.com/Randevough/CodeQuest)**
-
 </td>
-<td width="50%" valign="top">
+<td valign="top">
 
-<a href="https://aksara-netra-project.vercel.app">
-  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="AksaraNetra Preview" />
-</a>
-
-### 02 — AKSARANETRA `[SHIPPED]`
+### 02 / AKSARANETRA `[SHIPPED]`
 
 An automated web accessibility audit platform with dedicated headless Chromium measurement engines and an interactive audit dashboard.
 
 `Next.js` `Node.js` `TypeScript` `Playwright` `Chromium`
 
-<br />
+</td>
+</tr>
+<tr>
+<td valign="bottom">
 
-**[Live Demo ↗](https://aksara-netra-project.vercel.app)** &nbsp;&nbsp;|&nbsp;&nbsp; **[Source Code ↗](https://github.com/Randevough/AksaraNetra)**
+**[Source Code ↗](https://github.com/Randevough/CodeQuest)**
+
+</td>
+<td valign="bottom">
+
+**[Live Demo ↗](https://aksaranetra.vercel.app/)** &nbsp;&nbsp;|&nbsp;&nbsp; **[Source Code ↗](https://github.com/Randevough/AksaraNetra)**
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" align="center">
+  <a href="https://ukmcoding.site/">
+    <img src="./assets/preview/ukm-coding-preview.png" width="100%" alt="UKM Coding Preview" />
+  </a>
+</td>
+<td width="50%" align="center">
+  <a href="https://andalasiagroup.com/">
+    <img src="./assets/preview/andalasia-creative-preview.png" width="100%" alt="Andalasia Creative Preview" />
+  </a>
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-<a href="https://github.com/Randevough/website-ukm-coding">
-  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="UKM Coding Cyber University Preview" />
-</a>
-
-### 03 — UKM CODING CYBER UNIVERSITY `[SHIPPED]`
+### 03 / UKM CODING `[SHIPPED]`
 
 Official editorial showcase and engineering project archive for university software engineering students with embedded Sanity Studio CMS.
 
 `Astro` `React` `TypeScript` `Sanity CMS` `Vanilla CSS`
 
-<br />
+</td>
+<td valign="top">
 
-**[Source Code ↗](https://github.com/Randevough/website-ukm-coding)**
+### 04 / ANDALASIA CREATIVE `[SHIPPED]`
+
+Premier creative production house and event management agency website built with editorial aesthetics and interactive showcases.
+
+`React` `Tailwind CSS` `Vite` `JavaScript`
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td valign="bottom">
 
-<a href="https://github.com/Randevough/POS-TrakteerKopi">
-  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="POS Trakteer Kopi Preview" />
-</a>
+**[Live Demo ↗](https://ukmcoding.site/)** &nbsp;&nbsp;|&nbsp;&nbsp; **[Source Code ↗](https://github.com/Randevough/website-ukm-coding)**
 
-### 04 — POS TRAKTEER KOPI `[SHIPPED]`
+</td>
+<td valign="bottom">
 
-A desktop point-of-sale management system built for coffee shops, handling order flows, catalog management, and thermal receipt generation.
-
-`Java` `JavaFX` `MySQL` `Maven`
-
-<br />
-
-**[Source Code ↗](https://github.com/Randevough/POS-TrakteerKopi)**
+**[Live Demo ↗](https://andalasiagroup.com/)**
 
 </td>
 </tr>
@@ -249,14 +265,6 @@ My GitHub activity, visualized in a slightly more interesting way than a collect
 <br />
 
 <div align="center">
-  <a href="https://open.spotify.com" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/spotify-card.svg" width="100%" alt="Now Listening on Spotify" />
-  </a>
-</div>
-
-<br />
-
-<div align="center">
   <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/footer.svg" />
@@ -268,11 +276,11 @@ My GitHub activity, visualized in a slightly more interesting way than a collect
   I'm always interested in building interesting things.
 
   <p align="center">
-    <a href="#" target="_blank"><img src="https://img.shields.io/badge/Portfolio-181818?style=flat&logo=safari&logoColor=1736b6" alt="Portfolio" /></a>
+    <a href="https://randevough.github.io/Portofolio/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-181818?style=flat&logo=safari&logoColor=1736b6" alt="Portfolio" /></a>
     &nbsp;
-    <a href="#" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-181818?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzBBNjZDMiI%2BPHBhdGggZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjJWMTAuOUg2LjQ2TTcuODMgNi40NWExLjYgMS42IDAgMCAwLTEuNiAxLjYgMS42IDEuNiAwIDAgMCAxLjYgMS42IDEuNiAxLjYgMCAwIDAgMS42LTEuNiAxLjYgMS42IDAgMCAwLTEuNi0xLjZaIi8%2BPC9zdmc%2B" alt="LinkedIn" /></a>
+    <a href="https://www.linkedin.com/in/muhamad-rafi-fernanda-5248a0301/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-181818?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzBBNjZDMiI%2BPHBhdGggZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjJWMTAuOUg2LjQ2TTcuODMgNi40NWExLjYgMS42IDAgMCAwLTEuNiAxLjYgMS42IDEuNiAwIDAgMCAxLjYgMS42IDEuNiAxLjYgMCAwIDAgMS42LTEuNiAxLjYgMS42IDAgMCAwLTEuNi0xLjZaIi8%2BPC9zdmc%2B" alt="LinkedIn" /></a>
     &nbsp;
-    <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-181818?style=flat&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+    <a href="mailto:muhamadrafifernanda@gmail.com"><img src="https://img.shields.io/badge/Email-181818?style=flat&logo=gmail&logoColor=EA4335" alt="Email" /></a>
   </p>
 
   <br />
