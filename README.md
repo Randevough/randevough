@@ -5,11 +5,17 @@
 </div>
 
 <p align="center">
-  <strong>Open to work · collaboration · freelance</strong><br />
-  <a href="#">Portfolio</a> ·
-  <a href="#">LinkedIn</a> ·
-  <a href="mailto:your@email.com">Email</a> ·
-  <a href="https://github.com/Randevough">GitHub</a>
+  <strong>Open for contracts, full-time roles &amp; freelance</strong>
+</p>
+
+<p align="center">
+  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Portfolio-181818?style=flat&logo=safari&logoColor=1736b6" alt="Portfolio" /></a>
+  &nbsp;
+  <a href="#" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-181818?style=flat&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-181818?style=flat&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+  &nbsp;
+  <a href="https://github.com/Randevough" target="_blank"><img src="https://img.shields.io/badge/GitHub-181818?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 <img src="./assets/section-01-about.svg" width="100%" alt="01 / About" />
@@ -71,80 +77,104 @@ A few things I've built, broken, rebuilt, and eventually shipped.
 <tr>
 <td width="50%" valign="top">
 
-### 01 — PROJECT NAME
+<a href="#">
+  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="Project 01 Preview" />
+</a>
 
-A short description of what it does, who it helps, and why it exists.
+### 01 — PROJECT NAME `[SHIPPED]`
 
-`Tech` · `Tech` · `Tech`
+A practical breakdown of what this app does, the specific workflow it simplifies, and why it was built.
 
-[View project ↗](#)
+`TypeScript` `React` `Tailwind` `Node.js`
+
+<br />
+
+**[Live Demo ↗](#)** &nbsp;&nbsp;|&nbsp;&nbsp; **[Source Code ↗](#)**
 
 </td>
 <td width="50%" valign="top">
 
-### 02 — PROJECT NAME
+<a href="#">
+  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="Project 02 Preview" />
+</a>
 
-A short description of what it does, who it helps, and why it exists.
+### 02 — PROJECT NAME `[ACTIVE]`
 
-`Tech` · `Tech` · `Tech`
+A web application built to solve a specific bottleneck, handling end-to-end data flow with an interface that stays out of the user's way.
 
-[View project ↗](#)
+`Next.js` `TypeScript` `PostgreSQL` `Prisma`
+
+<br />
+
+**[Live Demo ↗](#)** &nbsp;&nbsp;|&nbsp;&nbsp; **[Source Code ↗](#)**
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 03 — PROJECT NAME
+<a href="#">
+  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="Project 03 Preview" />
+</a>
 
-A short description of what it does, who it helps, and why it exists.
+### 03 — PROJECT NAME `[BETA]`
 
-`Tech` · `Tech` · `Tech`
+A tool created to automate repetitive tasks and give teams a straightforward way to manage their pipeline without unnecessary complexity.
 
-[View project ↗](#)
+`Python` `FastAPI` `Docker` `Redis`
+
+<br />
+
+**[Live Demo ↗](#)** &nbsp;&nbsp;|&nbsp;&nbsp; **[Source Code ↗](#)**
 
 </td>
 <td width="50%" valign="top">
 
-### 04 — PROJECT NAME
+<a href="#">
+  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="Project 04 Preview" />
+</a>
 
-A short description of what it does, who it helps, and why it exists.
+### 04 — PROJECT NAME `[PROTOTYPE]`
 
-`Tech` · `Tech` · `Tech`
+An exploratory build testing new interface patterns and performance optimizations, built from rough sketch to working release.
 
-[View project ↗](#)
+`React` `Tailwind` `Express` `MongoDB`
+
+<br />
+
+**[Live Demo ↗](#)** &nbsp;&nbsp;|&nbsp;&nbsp; **[Source Code ↗](#)**
 
 </td>
 </tr>
 </table>
 
-<img src="./assets/section-04-toolbox.svg" width="100%" alt="04 / The Toolbox" />
+<img src="./assets/section-04-tech-stack.svg" width="100%" alt="04 / Tech Stack" />
 
 <table>
 <tr>
 <td width="24%" valign="middle"><strong>FRONTEND</strong></td>
 <td valign="middle">
-  <img src="https://img.shields.io/badge/React-181818?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-181818?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-181818?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/TypeScript-181818?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-181818?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-181818?style=flat&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-181818?style=flat&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-181818?style=flat&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/TypeScript-181818?style=flat&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-181818?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
 </td>
 </tr>
 <tr>
 <td valign="middle"><strong>BACKEND &amp; DB</strong></td>
 <td valign="middle">
-  <img src="https://img.shields.io/badge/Node.js-181818?style=flat-square&logo=node.js&logoColor=68A063" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-181818?style=flat-square&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/MongoDB-181818?style=flat-square&logo=mongodb&logoColor=47A248" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Python-181818?style=flat-square&logo=python&logoColor=FFD43B" alt="Python" />
+  <img src="https://img.shields.io/badge/Node.js-181818?style=flat&logo=node.js&logoColor=68A063" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-181818?style=flat&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/MongoDB-181818?style=flat&logo=mongodb&logoColor=47A248" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Python-181818?style=flat&logo=python&logoColor=FFD43B" alt="Python" />
 </td>
 </tr>
 <tr>
 <td valign="middle"><strong>DESIGN &amp; TOOLS</strong></td>
 <td valign="middle">
-  <img src="https://img.shields.io/badge/Figma-181818?style=flat-square&logo=figma&logoColor=F24E1E" alt="Figma" />
-  <img src="https://img.shields.io/badge/Git-181818?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/Figma-181818?style=flat&logo=figma&logoColor=F24E1E" alt="Figma" />
+  <img src="https://img.shields.io/badge/Git-181818?style=flat&logo=git&logoColor=F05032" alt="Git" />
 </td>
 </tr>
 </table>
@@ -189,7 +219,15 @@ My GitHub activity, visualized in a slightly more interesting way than a collect
 
   I'm always interested in building interesting things.
 
-  **[Portfolio](#) · [LinkedIn](#) · [Email](mailto:your@email.com) · [GitHub](https://github.com/Randevough)**
+  <p align="center">
+    <a href="#" target="_blank"><img src="https://img.shields.io/badge/Portfolio-181818?style=flat&logo=safari&logoColor=1736b6" alt="Portfolio" /></a>
+    &nbsp;
+    <a href="#" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-181818?style=flat&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+    &nbsp;
+    <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-181818?style=flat&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+    &nbsp;
+    <a href="https://github.com/Randevough" target="_blank"><img src="https://img.shields.io/badge/GitHub-181818?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
+  </p>
 
   <br />
 
