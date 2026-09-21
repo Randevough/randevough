@@ -19,11 +19,9 @@
 <p align="center">
   <a href="#" target="_blank"><img src="https://img.shields.io/badge/Portfolio-181818?style=flat&logo=safari&logoColor=1736b6" alt="Portfolio" /></a>
   &nbsp;
-  <a href="#" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-181818?style=flat&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+  <a href="#" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-181818?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzBBNjZDMiI%2BPHBhdGggZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjJWMTAuOUg2LjQ2TTcuODMgNi40NWExLjYgMS42IDAgMCAwLTEuNiAxLjYgMS42IDEuNiAwIDAgMCAxLjYgMS42IDEuNiAxLjYgMCAwIDAgMS42LTEuNiAxLjYgMS42IDAgMCAwLTEuNi0xLjZaIi8%2BPC9zdmc%2B" alt="LinkedIn" /></a>
   &nbsp;
   <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-181818?style=flat&logo=gmail&logoColor=EA4335" alt="Email" /></a>
-  &nbsp;
-  <a href="https://github.com/Randevough" target="_blank"><img src="https://img.shields.io/badge/GitHub-181818?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 <picture>
@@ -97,72 +95,72 @@ A few things I've built, broken, rebuilt, and eventually shipped.
 <tr>
 <td width="50%" valign="top">
 
-<a href="#">
-  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="Project 01 Preview" />
+<a href="https://github.com/Randevough/CodeQuest">
+  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="CodeQuest Preview" />
 </a>
 
-### 01 — PROJECT NAME `[SHIPPED]`
+### 01 — CODEQUEST `[ACTIVE]`
 
-A practical breakdown of what this app does, the specific workflow it simplifies, and why it was built.
+A gamified collaboration platform turning standard development issues into engaging team quests for student clubs and developer communities.
 
-`TypeScript` `React` `Tailwind` `Node.js`
+`Next.js` `React` `TypeScript` `Tailwind CSS` `Prisma` `Redis`
 
 <br />
 
-**[Live Demo ↗](#)** &nbsp;&nbsp;|&nbsp;&nbsp; **[Source Code ↗](#)**
+**[Source Code ↗](https://github.com/Randevough/CodeQuest)**
 
 </td>
 <td width="50%" valign="top">
 
-<a href="#">
-  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="Project 02 Preview" />
+<a href="https://aksara-netra-project.vercel.app">
+  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="AksaraNetra Preview" />
 </a>
 
-### 02 — PROJECT NAME `[ACTIVE]`
+### 02 — AKSARANETRA `[SHIPPED]`
 
-A web application built to solve a specific bottleneck, handling end-to-end data flow with an interface that stays out of the user's way.
+An automated web accessibility audit platform with dedicated headless Chromium measurement engines and an interactive audit dashboard.
 
-`Next.js` `TypeScript` `PostgreSQL` `Prisma`
+`Next.js` `Node.js` `TypeScript` `Playwright` `Chromium`
 
 <br />
 
-**[Live Demo ↗](#)** &nbsp;&nbsp;|&nbsp;&nbsp; **[Source Code ↗](#)**
+**[Live Demo ↗](https://aksara-netra-project.vercel.app)** &nbsp;&nbsp;|&nbsp;&nbsp; **[Source Code ↗](https://github.com/Randevough/AksaraNetra)**
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<a href="#">
-  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="Project 03 Preview" />
+<a href="https://github.com/Randevough/website-ukm-coding">
+  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="UKM Coding Cyber University Preview" />
 </a>
 
-### 03 — PROJECT NAME `[BETA]`
+### 03 — UKM CODING CYBER UNIVERSITY `[SHIPPED]`
 
-A tool created to automate repetitive tasks and give teams a straightforward way to manage their pipeline without unnecessary complexity.
+Official editorial showcase and engineering project archive for university software engineering students with embedded Sanity Studio CMS.
 
-`Python` `FastAPI` `Docker` `Redis`
+`Astro` `React` `TypeScript` `Sanity CMS` `Vanilla CSS`
 
 <br />
 
-**[Live Demo ↗](#)** &nbsp;&nbsp;|&nbsp;&nbsp; **[Source Code ↗](#)**
+**[Source Code ↗](https://github.com/Randevough/website-ukm-coding)**
 
 </td>
 <td width="50%" valign="top">
 
-<a href="#">
-  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="Project 04 Preview" />
+<a href="https://github.com/Randevough/POS-TrakteerKopi">
+  <img src="./assets/project-preview-placeholder.svg" width="100%" alt="POS Trakteer Kopi Preview" />
 </a>
 
-### 04 — PROJECT NAME `[PROTOTYPE]`
+### 04 — POS TRAKTEER KOPI `[SHIPPED]`
 
-An exploratory build testing new interface patterns and performance optimizations, built from rough sketch to working release.
+A desktop point-of-sale management system built for coffee shops, handling order flows, catalog management, and thermal receipt generation.
 
-`React` `Tailwind` `Express` `MongoDB`
+`Java` `JavaFX` `MySQL` `Maven`
 
 <br />
 
-**[Live Demo ↗](#)** &nbsp;&nbsp;|&nbsp;&nbsp; **[Source Code ↗](#)**
+**[Source Code ↗](https://github.com/Randevough/POS-TrakteerKopi)**
 
 </td>
 </tr>
@@ -180,6 +178,8 @@ An exploratory build testing new interface patterns and performance optimization
 <td valign="middle">
   <img src="https://img.shields.io/badge/React-181818?style=flat&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-181818?style=flat&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Astro-181818?style=flat&logo=astro&logoColor=BC52EE" alt="Astro" />
+  <img src="https://img.shields.io/badge/Blade-181818?style=flat&logo=laravel&logoColor=FF2D20" alt="Blade" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-181818?style=flat&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/TypeScript-181818?style=flat&logo=typescript&logoColor=3178C6" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-181818?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
@@ -190,13 +190,21 @@ An exploratory build testing new interface patterns and performance optimization
 <td valign="middle">
   <img src="https://img.shields.io/badge/Node.js-181818?style=flat&logo=node.js&logoColor=68A063" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express-181818?style=flat&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/MongoDB-181818?style=flat&logo=mongodb&logoColor=47A248" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/PHP-181818?style=flat&logo=php&logoColor=777BB4" alt="PHP" />
+  <img src="https://img.shields.io/badge/Laravel-181818?style=flat&logo=laravel&logoColor=FF2D20" alt="Laravel" />
+  <img src="https://img.shields.io/badge/Java-181818?style=flat&logo=openjdk&logoColor=ED8B00" alt="Java" />
   <img src="https://img.shields.io/badge/Python-181818?style=flat&logo=python&logoColor=FFD43B" alt="Python" />
+  <img src="https://img.shields.io/badge/PostgreSQL-181818?style=flat&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-181818?style=flat&logo=mysql&logoColor=4479A1" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Supabase-181818?style=flat&logo=supabase&logoColor=3ECF8E" alt="Supabase" />
+  <img src="https://img.shields.io/badge/MongoDB-181818?style=flat&logo=mongodb&logoColor=47A248" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Prisma-181818?style=flat&logo=prisma&logoColor=white" alt="Prisma" />
 </td>
 </tr>
 <tr>
 <td valign="middle"><strong>DESIGN &amp; TOOLS</strong></td>
 <td valign="middle">
+  <img src="https://img.shields.io/badge/WordPress-181818?style=flat&logo=wordpress&logoColor=21759B" alt="WordPress" />
   <img src="https://img.shields.io/badge/Figma-181818?style=flat&logo=figma&logoColor=F24E1E" alt="Figma" />
   <img src="https://img.shields.io/badge/Git-181818?style=flat&logo=git&logoColor=F05032" alt="Git" />
 </td>
@@ -262,11 +270,9 @@ My GitHub activity, visualized in a slightly more interesting way than a collect
   <p align="center">
     <a href="#" target="_blank"><img src="https://img.shields.io/badge/Portfolio-181818?style=flat&logo=safari&logoColor=1736b6" alt="Portfolio" /></a>
     &nbsp;
-    <a href="#" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-181818?style=flat&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+    <a href="#" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-181818?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzBBNjZDMiI%2BPHBhdGggZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjJWMTAuOUg2LjQ2TTcuODMgNi40NWExLjYgMS42IDAgMCAwLTEuNiAxLjYgMS42IDEuNiAwIDAgMCAxLjYgMS42IDEuNiAxLjYgMCAwIDAgMS42LTEuNiAxLjYgMS42IDAgMCAwLTEuNi0xLjZaIi8%2BPC9zdmc%2B" alt="LinkedIn" /></a>
     &nbsp;
     <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-181818?style=flat&logo=gmail&logoColor=EA4335" alt="Email" /></a>
-    &nbsp;
-    <a href="https://github.com/Randevough" target="_blank"><img src="https://img.shields.io/badge/GitHub-181818?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
   </p>
 
   <br />
