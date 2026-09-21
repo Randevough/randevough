@@ -166,9 +166,11 @@ A short description of what it does, who it helps, and why it exists.
 
 My GitHub activity, visualized in a slightly more interesting way than a collection of green squares.
 
-<div align="center">
-  <img src="./assets/contribution-shooter.gif" width="100%" alt="Galaga spaceship shooting through Randevough's GitHub contribution graph" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/galaga-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/galaga-contribution-graph.svg" />
+  <img src="./assets/galaga-contribution-graph-dark.svg" width="100%" alt="Galaga spaceship shooting through Randevough's GitHub contribution graph" />
+</picture>
 
 <br />
 
