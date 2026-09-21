@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img">
+  <title>Spotify Music &amp; Focus Flow</title>
+  <defs>
+    <filter id="p">
+      <feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" seed="42" />
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .07 0" />
+    </filter>
+    <style>
+      .s { font-family: Arial, Helvetica, sans-serif; }
+      .m { font-family: Consolas, Menlo, monospace; }
+      @keyframes eq {
+        0%, 100% { height: 8px; y: 132px; }
+        50% { height: 38px; y: 102px; }
+      }
+      .b1 { animation: eq 1.1s ease-in-out infinite; }
+      .b2 { animation: eq 0.8s ease-in-out 0.15s infinite; }
+      .b3 { animation: eq 1.4s ease-in-out 0.3s infinite; }
+      .b4 { animation: eq 0.9s ease-in-out 0.1s infinite; }
+      .b5 { animation: eq 1.2s ease-in-out 0.4s infinite; }
+      .b6 { animation: eq 0.7s ease-in-out 0.25s infinite; }
+      .b7 { animation: eq 1.3s ease-in-out 0.05s infinite; }
+      .b8 { animation: eq 1.0s ease-in-out 0.35s infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Paper -->
+  <rect x="1" y="1" width="1198" height="198" rx="16" fill="#f3ebdd" stroke="#181818" stroke-width="2" />
+  <rect x="1" y="1" width="1198" height="198" rx="16" filter="url(#p)" />
+
+  <!-- Left Accent Tape / Cassette -->
+  <path d="M0 24h105l-12 152H0Z" fill="#1736b6" />
+  
+  <!-- Spotify Vinyl / Disc Mockup -->
+  <g transform="translate(68, 40)">
+    <circle cx="60" cy="60" r="52" fill="#181818" stroke="#ffd253" stroke-width="3" />
+    <!-- Vinyl grooves -->
+    <circle cx="60" cy="60" r="42" fill="none" stroke="#282828" stroke-width="1.5" />
+    <circle cx="60" cy="60" r="32" fill="none" stroke="#282828" stroke-width="1.5" />
+    <circle cx="60" cy="60" r="20" fill="#1DB954" />
+    <circle cx="60" cy="60" r="6" fill="#fffaf0" />
+    <!-- Stylized Spotify Sound Waves on Center -->
+    <path d="M52 57c5-2 11-2 16 0" stroke="#fffaf0" stroke-width="2" stroke-linecap="round" fill="none" />
+    <path d="M54 61c4-1 8-1 12 0" stroke="#fffaf0" stroke-width="1.8" stroke-linecap="round" fill="none" />
+    <path d="M56 65c3-1 6-1 8 0" stroke="#fffaf0" stroke-width="1.5" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- Status & Monospace Header -->
+  <g transform="translate(210, 0)">
+    <!-- Status Pill -->
+    <rect x="0" y="36" width="170" height="28" rx="6" fill="#181818" />
+    <circle cx="16" cy="50" r="4" fill="#1DB954" />
+    <text class="m" x="28" y="55" font-size="12" font-weight="700" fill="#fffaf0" letter-spacing="1">NOW LISTENING</text>
+
+    <!-- Track & Artist -->
+    <text class="s" x="0" y="100" font-size="28" font-weight="900" fill="#181818">Focus Flow · Lo-Fi &amp; Synthwave Beats</text>
+    <text class="m" x="0" y="128" font-size="14" font-weight="600" fill="#555047">Coding soundtrack · Powered by music &amp; questionable amounts of coffee</text>
+
+    <!-- Interactive Hint -->
+    <text class="m" x="0" y="156" font-size="12" font-weight="700" fill="#1736b6">▶ OPEN IN SPOTIFY ↗</text>
+  </g>
+
+  <!-- Animated Sound Equalizer Bars (Right Side) -->
+  <g transform="translate(980, 0)">
+    <rect class="b1" x="0" y="132" width="10" height="8" rx="4" fill="#f06432" />
+    <rect class="b2" x="18" y="132" width="10" height="8" rx="4" fill="#1736b6" />
+    <rect class="b3" x="36" y="132" width="10" height="8" rx="4" fill="#ffd253" stroke="#181818" stroke-width="1" />
+    <rect class="b4" x="54" y="132" width="10" height="8" rx="4" fill="#1DB954" />
+    <rect class="b5" x="72" y="132" width="10" height="8" rx="4" fill="#f06432" />
+    <rect class="b6" x="90" y="132" width="10" height="8" rx="4" fill="#1736b6" />
+    <rect class="b7" x="108" y="132" width="10" height="8" rx="4" fill="#ffd253" stroke="#181818" stroke-width="1" />
+    <rect class="b8" x="126" y="132" width="10" height="8" rx="4" fill="#1DB954" />
+  </g>
+
+  <!-- Decorative Accent Wave -->
+  <path d="M210 170c180 6 340-4 560 2" fill="none" stroke="#f06432" stroke-width="3" stroke-linecap="round" />
+</svg>

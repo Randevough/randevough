@@ -1,5 +1,7 @@
 <div align="center">
   <img src="./assets/hero.svg" width="100%" alt="RANDEVOUGH — I build things people actually use" />
+  <br />
+  <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=700&size=19&duration=2800&pause=1000&color=1736B6&background=F3EBDD00&center=true&vCenter=true&width=750&height=36&lines=Building+things+people+actually+use;Full-Stack+Developer+%C2%B7+UI%2FUX+Enthusiast;Turning+messy+ideas+into+shipped+products" alt="Typing Subtitle" />
 </div>
 
 <p align="center">
@@ -118,60 +120,44 @@ A short description of what it does, who it helps, and why it exists.
 
 <img src="./assets/section-04-toolbox.svg" width="100%" alt="04 / The Toolbox" />
 
-<p align="center">
+<table>
+<tr>
+<td width="24%" valign="middle"><strong>FRONTEND</strong></td>
+<td valign="middle">
   <img src="https://img.shields.io/badge/React-181818?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-181818?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-181818?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/JavaScript-181818?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-181818?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-181818?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+</td>
+</tr>
+<tr>
+<td valign="middle"><strong>BACKEND &amp; DB</strong></td>
+<td valign="middle">
   <img src="https://img.shields.io/badge/Node.js-181818?style=flat-square&logo=node.js&logoColor=68A063" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express-181818?style=flat-square&logo=express&logoColor=white" alt="Express" />
   <img src="https://img.shields.io/badge/MongoDB-181818?style=flat-square&logo=mongodb&logoColor=47A248" alt="MongoDB" />
   <img src="https://img.shields.io/badge/Python-181818?style=flat-square&logo=python&logoColor=FFD43B" alt="Python" />
+</td>
+</tr>
+<tr>
+<td valign="middle"><strong>DESIGN &amp; TOOLS</strong></td>
+<td valign="middle">
   <img src="https://img.shields.io/badge/Figma-181818?style=flat-square&logo=figma&logoColor=F24E1E" alt="Figma" />
   <img src="https://img.shields.io/badge/Git-181818?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
-</p>
-
-<img src="./assets/section-05-currently-building.svg" width="100%" alt="05 / Currently Building" />
-
-<table>
-<tr>
-<td width="65%" valign="top">
-
-I'm currently building full-stack applications, digital products, and small experiments—usually starting with a messy idea and ending somewhere between *“it works”* and *“we should probably refactor that.”*
-
-</td>
-<td width="35%" valign="top">
-
-**CURRENT FOCUS**
-
-- Reliable products
-- Thoughtful interfaces
-- Shipping more often
-
 </td>
 </tr>
 </table>
 
-<img src="./assets/section-06-beyond-code.svg" width="100%" alt="06 / Beyond the Code" />
-
-<div align="center">
-  <img src="./assets/leadership-card.svg" width="100%" alt="President of UKM Coding — leading the community and turning ideas into things the team can build" />
-</div>
-
-Because software is rarely just about the code. It's also about communicating clearly, working through uncertainty, and keeping everyone moving in the same direction.
-
-Still figuring out the deadline part.
-
-<img src="./assets/section-07-github-activity.svg" width="100%" alt="07 / GitHub Activity" />
+<img src="./assets/section-05-github-activity.svg" width="100%" alt="05 / GitHub Activity" />
 
 <table>
 <tr>
 <td width="50%" align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Randevough&show_icons=true&hide_border=true&theme=github_dark_dimmed&rank_icon=github" width="100%" alt="Randevough GitHub statistics" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Randevough&show_icons=true&hide_border=false&border_radius=8&border_color=181818&bg_color=f3ebdd&title_color=1736b6&text_color=181818&icon_color=f06432&rank_icon=github" width="100%" alt="Randevough GitHub statistics" />
 </td>
 <td width="50%" align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Randevough&layout=compact&hide_border=true&theme=github_dark_dimmed" width="100%" alt="Randevough most used languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Randevough&layout=compact&hide_border=false&border_radius=8&border_color=181818&bg_color=f3ebdd&title_color=1736b6&text_color=181818" width="100%" alt="Randevough most used languages" />
 </td>
 </tr>
 </table>
@@ -180,11 +166,17 @@ Still figuring out the deadline part.
 
 My GitHub activity, visualized in a slightly more interesting way than a collection of green squares.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Randevough/randevough/output/galaga-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Randevough/randevough/output/galaga-contribution-graph.svg" />
-  <img src="https://raw.githubusercontent.com/Randevough/randevough/output/galaga-contribution-graph-dark.svg" width="100%" alt="Galaga spaceship shooting through Randevough's GitHub contribution graph" />
-</picture>
+<div align="center">
+  <img src="./assets/contribution-shooter.gif" width="100%" alt="Galaga spaceship shooting through Randevough's GitHub contribution graph" />
+</div>
+
+<br />
+
+<div align="center">
+  <a href="https://open.spotify.com" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/spotify-card.svg" width="100%" alt="Now Listening on Spotify" />
+  </a>
+</div>
 
 <br />
 
