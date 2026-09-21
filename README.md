@@ -1,7 +1,15 @@
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="RANDEVOUGH — I build things people actually use" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero.svg" />
+    <img src="./assets/hero.svg" width="100%" alt="RANDEVOUGH — I build things people actually use" />
+  </picture>
   <br />
-  <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=700&size=19&duration=2800&pause=1000&color=1736B6&background=F3EBDD00&center=true&vCenter=true&width=750&height=36&lines=Building+things+people+actually+use;Full-Stack+Developer+%C2%B7+UI%2FUX+Enthusiast;Turning+messy+ideas+into+shipped+products" alt="Typing Subtitle" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=700&size=19&duration=2800&pause=1000&color=FFD253&background=F3EBDD00&center=true&vCenter=true&width=750&height=36&lines=Building+things+people+actually+use;Full-Stack+Developer+%C2%B7+UI%2FUX+Enthusiast;Turning+messy+ideas+into+shipped+products" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=700&size=19&duration=2800&pause=1000&color=1736B6&background=F3EBDD00&center=true&vCenter=true&width=750&height=36&lines=Building+things+people+actually+use;Full-Stack+Developer+%C2%B7+UI%2FUX+Enthusiast;Turning+messy+ideas+into+shipped+products" />
+    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=700&size=19&duration=2800&pause=1000&color=FFD253&background=F3EBDD00&center=true&vCenter=true&width=750&height=36&lines=Building+things+people+actually+use;Full-Stack+Developer+%C2%B7+UI%2FUX+Enthusiast;Turning+messy+ideas+into+shipped+products" alt="Typing Subtitle" />
+  </picture>
 </div>
 
 <p align="center">
@@ -18,7 +26,11 @@
   <a href="https://github.com/Randevough" target="_blank"><img src="https://img.shields.io/badge/GitHub-181818?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
-<img src="./assets/section-01-about.svg" width="100%" alt="01 / About" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-01-about-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-01-about.svg" />
+  <img src="./assets/section-01-about.svg" width="100%" alt="01 / About" />
+</picture>
 
 I'm a developer who enjoys turning ideas into things that actually work.
 
@@ -52,7 +64,11 @@ Good ideas are better when there's a team willing to build them.
 </tr>
 </table>
 
-<img src="./assets/section-02-what-i-do.svg" width="100%" alt="02 / What I Do" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-02-what-i-do-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-02-what-i-do.svg" />
+  <img src="./assets/section-02-what-i-do.svg" width="100%" alt="02 / What I Do" />
+</picture>
 
 <table>
 <tr>
@@ -69,7 +85,11 @@ Good ideas are better when there's a team willing to build them.
 </tr>
 </table>
 
-<img src="./assets/section-03-selected-work.svg" width="100%" alt="03 / Selected Work" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-03-selected-work-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-03-selected-work.svg" />
+  <img src="./assets/section-03-selected-work.svg" width="100%" alt="03 / Selected Work" />
+</picture>
 
 A few things I've built, broken, rebuilt, and eventually shipped.
 
@@ -148,7 +168,11 @@ An exploratory build testing new interface patterns and performance optimization
 </tr>
 </table>
 
-<img src="./assets/section-04-tech-stack.svg" width="100%" alt="04 / Tech Stack" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-04-tech-stack-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-04-tech-stack.svg" />
+  <img src="./assets/section-04-tech-stack.svg" width="100%" alt="04 / Tech Stack" />
+</picture>
 
 <table>
 <tr>
@@ -179,15 +203,27 @@ An exploratory build testing new interface patterns and performance optimization
 </tr>
 </table>
 
-<img src="./assets/section-05-github-activity.svg" width="100%" alt="05 / GitHub Activity" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-05-github-activity-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-05-github-activity.svg" />
+  <img src="./assets/section-05-github-activity.svg" width="100%" alt="05 / GitHub Activity" />
+</picture>
 
 <table>
 <tr>
 <td width="50%" align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Randevough&show_icons=true&hide_border=false&border_radius=8&border_color=181818&bg_color=f3ebdd&title_color=1736b6&text_color=181818&icon_color=f06432&rank_icon=github" width="100%" alt="Randevough GitHub statistics" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=Randevough&show_icons=true&hide_border=false&border_radius=8&border_color=30363d&bg_color=161b22&title_color=58a6ff&text_color=c9d1d9&icon_color=f06432&rank_icon=github" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=Randevough&show_icons=true&hide_border=false&border_radius=8&border_color=181818&bg_color=f3ebdd&title_color=1736b6&text_color=181818&icon_color=f06432&rank_icon=github" />
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=Randevough&show_icons=true&hide_border=false&border_radius=8&border_color=30363d&bg_color=161b22&title_color=58a6ff&text_color=c9d1d9&icon_color=f06432&rank_icon=github" width="100%" alt="Randevough GitHub statistics" />
+  </picture>
 </td>
 <td width="50%" align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Randevough&layout=compact&hide_border=false&border_radius=8&border_color=181818&bg_color=f3ebdd&title_color=1736b6&text_color=181818" width="100%" alt="Randevough most used languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Randevough&layout=compact&hide_border=false&border_radius=8&border_color=30363d&bg_color=161b22&title_color=58a6ff&text_color=c9d1d9" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Randevough&layout=compact&hide_border=false&border_radius=8&border_color=181818&bg_color=f3ebdd&title_color=1736b6&text_color=181818" />
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Randevough&layout=compact&hide_border=false&border_radius=8&border_color=30363d&bg_color=161b22&title_color=58a6ff&text_color=c9d1d9" width="100%" alt="Randevough most used languages" />
+  </picture>
 </td>
 </tr>
 </table>
@@ -213,7 +249,11 @@ My GitHub activity, visualized in a slightly more interesting way than a collect
 <br />
 
 <div align="center">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer.svg" />
   <img src="./assets/footer.svg" width="100%" alt="Let's build something" />
+</picture>
 
   Got an idea, a project, or just an unnecessarily complicated problem?
 
